@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
 	<head>
 		<meta charset="utf-8">
 		<meta content="width=device-width, initial-scale=1" name="viewport">
 		<title>Hello Bulma!</title>
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css" rel="stylesheet">
-		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+		<link href="css/main.css" rel="stylesheet">
+		<script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 	</head>
-	<body class="has-navbar-fixed-top">
+	<body class="has-navbar-fixed-top" id="top">
 		<nav aria-label="main navigation" class="navbar is-transparent is-fixed-top" role="navigation">
 			<div class="navbar-brand">
+				<div class="navbar-item">
+					<a class="navbar-item" href="#top">
+						Kevin$&nbsp;
+						<span id="cursor">_</span>
+					</a>
+				</div>
 				<a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="nav" role="button">
 					<span aria-hidden="true"></span>
 					<span aria-hidden="true"></span>
@@ -28,13 +35,13 @@
 			</div>
 		</nav>
 		<main>
-			<section class="hero is-info is-bold">
+			<section class="hero is-small is-info">
 				<div class="hero-body">
 					<div class="container">
 						<div class="columns is-vcentered">
 							<div class="column is-one-quarter has-text-centered">
 								<h1 class="title">Kevin Arnall</h1>
-								<h2 class="subtitle">Full-stack Developer</h2>
+								<h2 class="subtitle">Software Developer</h2>
 
 								<div class="icon is-large">
 									<a href="https://www.linkedin.com/in/kevin-arnall-262064191/" target="_blank">
@@ -51,6 +58,11 @@
 										<i class="fas fa-envelope fa-2x"></i>
 									</a>
 								</div>
+								<div class="icon is-large">
+									<a href="https://www.hackerrank.com/kevinjarnall">
+										<i class="fab fa-hackerrank fa-2x"></i>
+									</a>
+								</div>
 							</div>
 							<div class="column is-offset-half is-one-quarter">
 								<figure class="image is-2by3">
@@ -61,13 +73,13 @@
 					</div>
 				</div>
 			</section>
-			<section class="section" id="about">
+			<section class="section has-text-centered" id="about">
 				<h1 class="title">About Me</h1>
 			</section>
-			<section class="section" id="portfolio">
+			<section class="section has-text-centered" id="portfolio">
 				<h1 class="title">Portfolio</h1>
 			</section>
-			<section class="section" id="contact">
+			<section class="section has-text-centered" id="contact">
 				<h1 class="title">Contact</h1>
 			</section>
 			<footer class="footer">
@@ -78,10 +90,7 @@
 				</div>
 			</footer>
 		</main>
-		<script
-				crossorigin="anonymous"
-				integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-				src="http://code.jquery.com/jquery-2.2.4.js"></script>
+		<script crossorigin="anonymous" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" src="http://code.jquery.com/jquery-2.2.4.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
