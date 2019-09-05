@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<meta charset="UTF-8">
-		<title>Title</title>
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<title>Hello Bulma!</title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css" rel="stylesheet">
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 	</head>
-	<body>
-		<h1>Hello World!</h1>
+	<body class="has-navbar-fixed-top">
+		<nav aria-label="main navigation" class="navbar is-transparent is-fixed-top" role="navigation">
+			<div class="navbar-brand">
+				<a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="nav" role="button">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+			<div class="navbar-menu" id="nav">
+				<div class="navbar-start"></div>
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<a class="navbar-item" href="#about">About</a>
+						<a class="navbar-item" href="#portfolio">Portfolio</a>
+						<a class="navbar-item" href="#contact">Contact</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<section class="hero is-info is-bold">
+				<div class="hero-body">
+					<div class="container">
+						<div class="columns is-vcentered">
+							<div class="column is-one-quarter has-text-centered">
+								<h1 class="title">Kevin Arnall</h1>
+								<h2 class="subtitle">Full-stack Developer</h2>
+
+								<div class="icon is-large">
+									<a href="https://www.linkedin.com/in/kevin-arnall-262064191/" target="_blank">
+										<i class="fab fa-linkedin fa-2x"></i>
+									</a>
+								</div>
+								<div class="icon is-large">
+									<a href="https://github.com/KevinArnall" target="_blank">
+										<i class="fab fa-github fa-2x"></i>
+									</a>
+								</div>
+								<div class="icon is-large">
+									<a href="mailto:kevinjarnall@gmail.com">
+										<i class="fas fa-envelope fa-2x"></i>
+									</a>
+								</div>
+							</div>
+							<div class="column is-offset-half is-one-quarter">
+								<figure class="image is-2by3">
+									<img class="is-rounded" src="img/face.jpg">
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section" id="about">
+				<h1 class="title">About Me</h1>
+			</section>
+			<section class="section" id="portfolio">
+				<h1 class="title">Portfolio</h1>
+			</section>
+			<section class="section" id="contact">
+				<h1 class="title">Contact</h1>
+			</section>
+			<footer class="footer">
+				<div class="content has-text-centered">
+					<a href="https://bulma.io">
+						<img alt="Made with Bulma" height="24" src="https://bulma.io/images/made-with-bulma--black.png" width="128">
+					</a>
+				</div>
+			</footer>
+		</main>
+		<script
+				crossorigin="anonymous"
+				integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+				src="http://code.jquery.com/jquery-2.2.4.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
