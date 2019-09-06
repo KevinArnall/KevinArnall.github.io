@@ -35,7 +35,7 @@ $(document).ready(function () {
                     event.preventDefault();
                     $('html, body').animate({
                         scrollTop: target.offset().top
-                    }, 100);
+                    }, 750);
                 }
             }
         });
