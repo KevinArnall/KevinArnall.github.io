@@ -1,0 +1,5 @@
+@media screen and (max-width: 1408px) {
+	.is-hidden-until-fullhd {
+		display: none !important;
+	}
+}

@@ -40,7 +40,7 @@
 				<div class="hero-body">
 					<div class="container">
 						<div class="columns is-vcentered">
-							<div class="column is-one-quarter has-text-centered">
+							<div class="column is-one-half-tablet is-one-quarter-fullhd has-text-centered">
 								<h1 class="title is-1">Kevin Arnall</h1>
 								<h2 class="subtitle is-3">Software Developer</h2>
 
@@ -65,7 +65,8 @@
 									</a>
 								</div>
 							</div>
-							<div class="column is-offset-half is-one-quarter">
+							<div class="column is-hidden-tablet-only is-half-fullhd"></div>
+							<div class="column is-one-half-tablet is-one-quarter-fullhd">
 								<figure class="image is-square">
 									<img alt="me.jpg" class="is-rounded" src="img/face.jpg">
 								</figure>
@@ -74,88 +75,18 @@
 					</div>
 				</div>
 			</section>
-
-			<!--			<section class="section has-text-centered" id="projects">-->
-			<!--				<h1 class="title">Projects</h1>-->
-			<!--				<div class="container">-->
-			<!--					<div class="columns">-->
-			<!--						<div class="column is-4">-->
-			<!--							<div class="card">-->
-			<!--								<div class="card-header">-->
-			<!--								</div>-->
-			<!--								<div class="card-content">-->
-			<!--									<p class="title is-4">Codeup Coffee Project</p>-->
-			<!--									<div class="card-image">-->
-			<!--										<figure class="image is-16by9">-->
-			<!--											<img alt="Coffee Preview" src="img/previews/coffee-project.png">-->
-			<!--										</figure>-->
-			<!--									</div>-->
-			<!--									<p class="subtitle">A frontend project utilizing vanilla JS Dom manipulation and styled with Materialize</p>-->
-			<!--									<div class="tags">-->
-			<!--										<span class="tag is-primary">HTML</span>-->
-			<!--										<span class="tag is-info">Javascript</span>-->
-			<!--										<span class="tag is-success">Materialize CSS</span>-->
-			<!--									</div>-->
-			<!--								</div>-->
-			<!--								<div class="card-footer">-->
-			<!--									<div class="card-footer-item">-->
-			<!--										<a href="projects/coffee-project/index.html">Preview</a>-->
-			<!--									</div>-->
-			<!--									<div class="card-footer-item">-->
-			<!--										<div class="icon">-->
-			<!--											<a href="https://github.com/brance-kevin/coffee-project" target="_blank">-->
-			<!--												<i class="fab fa-github fa-2x"></i>-->
-			<!--											</a>-->
-			<!--										</div>-->
-			<!--									</div>-->
-			<!--								</div>-->
-			<!--							</div>-->
-			<!--						</div>-->
-			<!--						<div class="column is-4">-->
-			<!--							<div class="card">-->
-			<!--								<div class="card-header">-->
-			<!--								</div>-->
-			<!--								<div class="card-content">-->
-			<!--									<p class="title is-4">My Personal Site</p>-->
-			<!--									<div class="card-image">-->
-			<!--										<figure class="image is-2by1">-->
-			<!--											<img alt="Personal Site Preview" src="img/previews/personal-site.png">-->
-			<!--										</figure>-->
-			<!--									</div>-->
-			<!--									<p class="subtitle">My personal website built using jQuery and styled with Bulma</p>-->
-			<!--									<div class="tags">-->
-			<!--										<span class="tag is-primary">HTML</span>-->
-			<!--										<span class="tag is-info">jQuery</span>-->
-			<!--										<span class="tag is-success">Bulma CSS</span>-->
-			<!--									</div>-->
-			<!--								</div>-->
-			<!--								<div class="card-footer">-->
-			<!--									<div class="card-footer-item">-->
-			<!--										<a href="https://kevinarnall.github.io/">Preview</a>-->
-			<!--									</div>-->
-			<!--									<div class="card-footer-item">-->
-			<!--										<div class="icon">-->
-			<!--											<a href="https://github.com/KevinArnall/KevinArnall.github.io" target="_blank">-->
-			<!--												<i class="fab fa-github fa-2x"></i>-->
-			<!--											</a>-->
-			<!--										</div>-->
-			<!--									</div>-->
-			<!--								</div>-->
-			<!--							</div>-->
-			<!--						</div>-->
-			<!--					</div>-->
-			<!--				</div>-->
-			<!--			</section>-->
 			<section class="hero is-medium is-white is-small has-text-centered" id="projects">
 				<div class="hero-body">
+					<div class="level">
+						<div class="level-item is-hidden-fullhd">
+							<h1 class="title is-2">Projects</h1>
+						</div>
+					</div>
 					<div class="container">
 						<div class="columns is-vcentered">
-							<div class="column is-one-quarter has-text-centered is-hidden-tablet">
-								<h1 class="title is-2">Projects</h1>
-							</div>
 							<div class="column">
-								<div class="columns">
-									<div class="column is-4">
+								<div class="columns is-multiline">
+									<div class="column is-half-tablet is-one-third-fullhd">
 										<div class="card">
 											<div class="card-content">
 												<p class="title is-4">Codeup Coffee Project</p>
@@ -185,7 +116,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="column is-4">
+									<div class="column is-half-tablet is-one-third-fullhd">
 										<div class="card">
 											<div class="card-content">
 												<p class="title is-4">My Personal Site</p>
@@ -197,8 +128,8 @@
 												<p class="subtitle">My personal website built using jQuery and styled with Bulma</p>
 												<div class="tags">
 													<span class="tag is-primary">HTML</span>
-													<span class="tag is-info">jQuery</span>
-													<span class="tag is-success">Bulma CSS</span>
+													<span class="tag is-link">jQuery</span>
+													<span class="tag is-warning">Bulma CSS</span>
 												</div>
 											</div>
 											<div class="card-footer">
@@ -215,10 +146,40 @@
 											</div>
 										</div>
 									</div>
+<!--									<div class="column is-half-tablet is-one-third-fullhd">-->
+<!--										<div class="card">-->
+<!--											<div class="card-content">-->
+<!--												<p class="title is-4">My Personal Site</p>-->
+<!--												<div class="card-image">-->
+<!--													<figure class="image is-2by1">-->
+<!--														<img alt="Personal Site Preview" src="img/previews/personal-site.png">-->
+<!--													</figure>-->
+<!--												</div>-->
+<!--												<p class="subtitle">My personal website built using jQuery and styled with Bulma</p>-->
+<!--												<div class="tags">-->
+<!--													<span class="tag is-primary">HTML</span>-->
+<!--													<span class="tag is-info">jQuery</span>-->
+<!--													<span class="tag is-success">Bulma CSS</span>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--											<div class="card-footer">-->
+<!--												<div class="card-footer-item">-->
+<!--													<a href="https://kevinarnall.github.io/">Preview</a>-->
+<!--												</div>-->
+<!--												<div class="card-footer-item">-->
+<!--													<div class="icon">-->
+<!--														<a href="https://github.com/KevinArnall/KevinArnall.github.io" target="_blank">-->
+<!--															<i class="fab fa-github fa-2x"></i>-->
+<!--														</a>-->
+<!--													</div>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
 								</div>
 
 							</div>
-							<div class="column is-one-quarter has-text-centered is-hidden-mobile">
+							<div class="column is-one-quarter has-text-centered is-hidden-until-fullhd">
 								<h1 class="title is-2">Projects</h1>
 							</div>
 						</div>
